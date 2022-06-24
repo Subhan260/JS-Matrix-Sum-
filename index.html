@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
+</head>
+<body>
+
+    <h1>  Matrices Sum </h1>
+     <form  onsubmit="start() ; return false ;" id="form1">
+        <div id="f1Input">
+        <input type="number" id="matGen1" placeholder="Enter Number of matrices : " class="f1I" autofocus >
+        <input type="number" id="matGen2" placeholder="Enter Number of matrices : " autofocus  class="f1I">
+        <!-- <br>
+         -->
+      <select name="" id="checksign" required aria-placeholder="ssss" class="f1I">
+      <option value="select"> Select an operation sign </option>
+      <option value="+"> + </option>
+      <option value="-"> - </option>
+      </select>
+    </div>    
+      <br>
+
+      <button  type="submit" id="gMb"> Get Matric Boxes </button>
+
+    </form>
+
+
+    
+    <form action="" onsubmit="cal(); return false" id="form2">
+     <div id="matInput">
+       <div id="mat1"  class="f2I" > </div>
+
+       <div> <h1 id="dropDown" class="sign"></h1> </div>
+
+       <div id="mat2" class="f2I"></div>
+
+       <div> <h1 id="equal" class="sign"></h1> </div>
+
+       <div id="result" class="f2I"></div>
+     </div>
+     <div id="calculate"></div>
+       
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
